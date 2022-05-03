@@ -5,9 +5,8 @@
 String? phoneValidator(String? value) {
   if (value == null || value.isEmpty) {
     return "Doldyrow shuyeri";
-  } else {
+  } else
     return null;
-  }
 }
 
 // 
